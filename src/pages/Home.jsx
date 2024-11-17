@@ -1,14 +1,18 @@
 import React from "react";
 import Header from "../components/Header";
 import "../css/Home.css";
-import ReactLogo from "../assets/react.svg";
 
 const Home = () => {
     return (
         <>
             <Header />
             <main className="home-body">
-                <h2>Hello</h2>
+                <section className="w-full flex flex-col justify-around items-center">
+                    <img src="/litmag_logo.png" alt="LitMag" className="block mx-auto"/>
+                    <h2 className="text-lg">
+                        BCA's Award Winning Literary Magazine
+                    </h2>
+                </section>
             </main>
         </>
     )

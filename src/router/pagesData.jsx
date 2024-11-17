@@ -37,6 +37,7 @@ const pagesData = [
         path: "/submit",
         element: <Submit />,
         title: "Submit to LitMag",
+        headerTitle: "Submit",
         showOnHeader: true
     },
     {
