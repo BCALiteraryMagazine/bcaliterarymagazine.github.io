@@ -1,5 +1,8 @@
 {
     "recommendations": [
-        "eldargerfanov.leet-html"
+        "eldargerfanov.leet-html",
+        "bradlc.vscode-tailwindcss",
+        "csstools.postcss",
+        "rvest.vs-code-prettier-eslint"
     ]
 }
