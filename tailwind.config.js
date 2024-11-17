@@ -12,6 +12,10 @@ export default {
                 colortwo: "#FFDA76",
                 colorthree: "#FF8C9E",
                 colorfour: "#FF4E88"
+            },
+            fontFamily: {
+                'ubuntu': 'Ubuntu',
+                'agdasima': ['Agdasima', 'sans-serif']
             }
         },
     },
