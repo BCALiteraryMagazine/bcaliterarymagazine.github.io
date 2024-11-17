@@ -5,16 +5,16 @@ import pagesData from "../router/pagesData";
 
 const Header = () => {
     return (
-        <header className="flex flex-row justify-between items-center px-10 py-5 box-border bg-colorthree text-black">
+        <header className="flex flex-col md:flex-row h-80 md:h-full justify-between items-center px-10 py-5 box-border bg-colorthree text-black">
             <Link to="/">
                 <img src="litmag_logo.png" alt="Litmag" height={100} width={100}/>
             </Link>
             <nav>
-                <ul className="flex flex-row justify-between items-center list-none">
+                <ul className="flex flex-col md:flex-row justify-between items-center list-none">
                     {
                         pagesData.map((pData, index) => {
                             return pData.showOnHeader && (
-                                <li className="mx-4 text-lg" key={index}>
+                                <li className="mx-4 text-2xl" key={index}>
                                     {/* if a specific header title is specified, use that, otherwise use the title */}
                                     <Link to={pData.path}>{pData.headerTitle ?? pData.title}</Link>
                                 </li>

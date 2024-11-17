@@ -1,14 +1,29 @@
 import React from "react";
 import Header from "../components/Header";
 import "../css/Home.css";
-import ReactLogo from "../assets/react.svg";
 
 const Home = () => {
     return (
         <>
             <Header />
             <main className="home-body">
-                <h2>Hello</h2>
+                <section className="w-full flex flex-col justify-around items-center">
+                    <img src="/litmag_logo.png" alt="LitMag" className="block mx-auto mb-10"/>
+                    <h2 className="text-colorthree font-extrabold font-ubuntu text-2xl">
+                        BCA's Award Winning Literary Magazine
+                    </h2>
+
+                    {/* TODO: Comment out if no new edition. Change URL to point to latest edition */}
+                    <div className="call-to-action mt-4">
+                        NEW! Fall Edition Out!
+                        <a
+                            className="mt-2 block border-2 border-black bg-colorone font-bold p-3 hover:scale-95 transition-all duration-150"
+                            href="https://drive.google.com/file/d/1SKPtVtFQBr6KqNrX_HzOx7EIaUrZl81s/view?usp=sharing"
+                        >
+                            Click to Read Now!
+                        </a>
+                    </div>
+                </section>
             </main>
         </>
     )
