@@ -2,11 +2,9 @@
 
 ## Development
 
-To get started, clone this repo, cd into the folder and install the dependencies:
+To get started, clone this repo, cd into the folder and install the dependencies with npm:
 
 ```bash
-git clone https://github.com/BCALiteraryMagazine/the-website.git
-cd the-website
 npm install
 ```
 
