@@ -1,11 +1,7 @@
-body {
-    overflow: hidden;
-}
-
 main.home-body {
     margin: 0;
     width: 100vw;
     box-sizing: border-box;
-    padding: 2rem;
+    padding: 2rem 0;
     position: relative;
 }
