@@ -8,8 +8,8 @@ const Home = () => {
             <Header />
             <main className="home-body">
                 <section className="w-full flex flex-col justify-around items-center">
-                    <img src="/litmag_logo.png" alt="LitMag" className="block mx-auto"/>
-                    <h2 className="text-lg">
+                    <img src="/litmag_logo.png" alt="LitMag" className="block mx-auto mb-10"/>
+                    <h2 className="text-colorthree font-extrabold font-ubuntu text-2xl">
                         BCA's Award Winning Literary Magazine
                     </h2>
 
