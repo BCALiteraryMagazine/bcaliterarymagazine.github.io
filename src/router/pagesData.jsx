@@ -4,6 +4,7 @@ import Home from "../pages/Home";
 import Awards from '../pages/Awards';
 import Editions from '../pages/Editions';
 import Submit from '../pages/Submit';
+import Staff from '../pages/Staff';
 
 const pagesData = [
     {
@@ -38,6 +39,13 @@ const pagesData = [
         element: <Submit />,
         title: "Submit to LitMag",
         headerTitle: "Submit",
+        showOnHeader: true
+    },
+    {
+        path: "/staff",
+        element: <Staff />,
+        title: "LitMag Staff",
+        headerTitle: "Staff",
         showOnHeader: true
     },
     {

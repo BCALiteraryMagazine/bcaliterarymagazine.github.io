@@ -1,0 +1,65 @@
+/* Container for the Staff page */
+.staff-body {
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    text-align: center;
+    background-color: #f9f5e6; 
+    min-height: 100vh;
+}
+
+
+.staff-title {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #000;
+    margin-bottom: 1.5rem;
+    font-family: 'Agdasima', sans-serif;
+}
+
+
+.staff-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    padding: 0 1rem;
+    justify-content: center;
+    align-items: stretch;
+}
+
+
+.staff-card {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 1.5rem;
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.staff-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+
+.staff-photo {
+    width: 100%;
+    height: auto; 
+    object-fit: contain;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+
+.staff-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ff8c9e;
+    margin-bottom: 0.5rem;
+}
+
+
+.staff-role {
+    font-size: 1rem;
+    color: #555;
+}
