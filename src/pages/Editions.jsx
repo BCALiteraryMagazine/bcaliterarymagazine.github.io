@@ -65,7 +65,7 @@ const Editions = () => {
         <>
             <Header />
             <main className="editions-body">
-                <h1 className="editions-title">Litmag Past Editions</h1>
+                <h1 className="editions-title">PAST EDITIONS</h1>
                 <div className="editions-grid">
                     {editions.map((editionGroup, index) => (
                         <div
