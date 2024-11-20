@@ -7,6 +7,7 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
+
 .awards-title {
     font-size: 2rem;
     font-weight: 800;
@@ -15,41 +16,55 @@
     margin-bottom: 2rem;
 }
 
+
 .awards-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
     padding: 0 1rem;
 }
 
-.award-card {
+
+.awards-section {
     background: #fff;
     border-radius: 15px;
     padding: 1.5rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    text-align: center;
 }
 
-.award-card:hover {
+.awards-section:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
-.award-year {
+
+.awards-year {
     font-size: 2rem;
     font-weight: bold;
     color: #ff8c9e;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+
+.awards-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.awards-item {
+    margin: 0.5rem 0;
+    text-align: left;
 }
 
 .award-title {
-    font-size: 1.5rem;
-    font-weight: 700;
+    font-size: 1.2rem;
+    font-weight: bold;
     color: #ff4e88;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.2rem;
 }
-
 
 .award-organization {
     font-size: 1rem;
