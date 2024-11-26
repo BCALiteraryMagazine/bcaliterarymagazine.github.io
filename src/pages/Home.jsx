@@ -35,6 +35,7 @@ const Home = () => {
                             <a
                                 className="mt-2 block border-2 border-black bg-colorone font-bold p-3 hover:scale-95 transition-all duration-150"
                                 href={editionURL}
+                                target="_blank"
                             >
                                 Click to Read Now!
                             </a>
