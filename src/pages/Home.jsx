@@ -4,7 +4,7 @@ import "../css/Home.css";
 import editionCover from "../assets/fall2024_cover.png"
 
 // Change to reflect newest edition name + URL
-const editionURL = "https://drive.google.com/file/d/1F05ZYsXstqa2pCj9x1a9RKUv7Fbz8S0E/view?usp=sharing";
+const editionURL = "https://drive.google.com/file/d/1kszinANkNQPiY8bNME7JyET1eKdSEuyq/view?usp=sharing";
 const editionName = "Jupiter";
 
 const Home = () => {
