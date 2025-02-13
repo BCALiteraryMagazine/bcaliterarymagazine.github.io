@@ -1,11 +1,11 @@
 import React from "react";
 import Header from "../components/Header";
 import "../css/Home.css";
-import editionCover from "../assets/fall2024_cover.png"
+//import editionCover from "../assets/fall2024_cover.png"
 
 // Change to reflect newest edition name + URL
 const editionURL = "https://drive.google.com/file/d/1F05ZYsXstqa2pCj9x1a9RKUv7Fbz8S0E/view?usp=sharing";
-const editionName = "Jupiter";
+//*const editionName = "h";
 
 const Home = () => {
     return (
@@ -25,11 +25,11 @@ const Home = () => {
                     <div className="call-to-action py-8 mt-24 w-full bg-colorone flex flex-row items-center justify-between">
                         <div className="h-52 flex flex-col justify-between items-center w-full border-0 border-red-500">
                             <h3 className="text-4xl font-semibold font-agdasima">
-                                NEW! Fall Edition "{editionName}" Out!
+                                NEW! Valentine's Edition Coming Soon!
                             </h3>
 
                             <p className="text-lg mt-4">
-                                Our fall edition, "{editionName}" is out now! Click below to read it!
+                                Our Valentine's Edition is coming soon!
                             </p>
 
                             <a
@@ -39,9 +39,9 @@ const Home = () => {
                                 Click to Read Now!
                             </a>
                         </div>
-                        <div className="flex flex-col justify-center items-center w-full border-l-2 border-black">
+                        {/* <div className="flex flex-col justify-center items-center w-full border-l-2 border-black">
                             <img src={editionCover} alt="Litmag Cover" className="w-1/4"/>
-                        </div>
+                        </div> */}
                     </div>
                 </section>
             </main>

@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../components/Header";
 import "../css/Editions.css";
 
-const editions = [
+const editions = [  
     {
         year: "2023-2024",
         links: [
