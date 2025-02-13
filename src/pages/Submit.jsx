@@ -5,17 +5,41 @@ const SUBMISSION_FORM_URL = "https://forms.gle/dREqwzxDpw7th3yu6";
 
 const Submit = () => {
 
-    // dont want auto redirects? remove the next line
+    // dont want auto redirects? remove the following statement
     // you can also just set location = SUBMISSION_FORM_URL
     // if you dont want to overwrite history
-    window.location.replace(SUBMISSION_FORM_URL);
+    setTimeout(
+        () => window.location.replace(SUBMISSION_FORM_URL),
+        1000
+    )
 
     return (
         <>
             <Header />
             <main className="home-body">
-                <h2>Submit to BCA LitMag</h2>
-                <p>Contribute to the Valentine's Day Edition</p>
+                <div className={`border-colorthree border-2 text-colorthree
+                    bg-colorone text-center w-1/4 mx-auto p-4 rounded-md`}>
+                    <h2
+                        className="text-3xl"
+                    >
+                        Submit to BCA LitMag
+                    </h2>
+                    <br />
+                    <p className="">
+                        Contribute to the upcoming Valentine's Day Edition!
+                    </p>                    
+                </div>
+                <p className="text-center italic block my-3">
+                    Redirecting.......
+                    <br /> <br />
+                    Not automatically redirected? Click&nbsp;
+                    <a
+                        href={SUBMISSION_FORM_URL}
+                        className="text-colorfour underline"
+                    >
+                        here
+                    </a>.
+                </p>
             </main>
         </>
     )

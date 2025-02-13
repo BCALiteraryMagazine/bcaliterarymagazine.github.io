@@ -18,7 +18,7 @@ const pagesData = [
         element: <About />,
         title: "About Us",
         headerTitle: "About",
-        showOnHeader: true
+        showOnHeader: false
     },
     {
         path: "/awards",
