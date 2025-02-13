@@ -4,7 +4,7 @@ import "../css/Home.css";
 //import editionCover from "../assets/fall2024_cover.png"
 
 // Change to reflect newest edition name + URL
-const editionURL = "https://drive.google.com/file/d/1F05ZYsXstqa2pCj9x1a9RKUv7Fbz8S0E/view?usp=sharing";
+const editionURL = "https://drive.google.com/file/d/1F5YryuHXI8bM_rpWPZFEEC_j8AZWOPas/view";
 //*const editionName = "h";
 
 const Home = () => {
@@ -25,11 +25,11 @@ const Home = () => {
                     <div className="call-to-action py-8 mt-24 w-full bg-colorone flex flex-row items-center justify-between">
                         <div className="h-52 flex flex-col justify-between items-center w-full border-0 border-red-500">
                             <h3 className="text-4xl font-semibold font-agdasima">
-                                NEW! Valentine's Edition Coming Soon!
+                                NEW! Valentine's Edition Out Now!
                             </h3>
 
                             <p className="text-lg mt-4">
-                                Our Valentine's Edition is coming soon!
+                                Our Valentine's Edition is out now!
                             </p>
 
                             <a
