@@ -5,7 +5,7 @@ import editionCover from "../assets/val2025_cover.png"
 
 // Change to reflect newest edition name + URL
 const editionURL = "https://drive.google.com/file/d/1F5YryuHXI8bM_rpWPZFEEC_j8AZWOPas/view";
-//*const editionName = "h";
+const editionName = "Venus";
 
 const Home = () => {
     return (
@@ -25,11 +25,11 @@ const Home = () => {
                     <div className="call-to-action py-8 mt-24 w-full bg-colorone flex flex-row items-center justify-between">
                         <div className="h-52 flex flex-col justify-between items-center w-full border-0 border-red-500">
                             <h3 className="text-4xl font-semibold font-agdasima">
-                                NEW! Valentine's Edition Out Now!
+                                NEW! Valentine's Edition "{editionName}" Out Now!
                             </h3>
 
                             <p className="text-lg mt-4">
-                                Our Valentine's Edition is out now!
+                                Our Valentine's Edition, "{editionName}", is out now! CLick below to read it!
                             </p>
 
                             <a
