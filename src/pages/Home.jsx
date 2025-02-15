@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
 import "../css/Home.css";
-//import editionCover from "../assets/fall2024_cover.png"
+import editionCover from "../assets/val2025_cover.png"
 
 // Change to reflect newest edition name + URL
 const editionURL = "https://drive.google.com/file/d/1F5YryuHXI8bM_rpWPZFEEC_j8AZWOPas/view";
@@ -40,9 +40,9 @@ const Home = () => {
                                 Click to Read Now!
                             </a>
                         </div>
-                        {/* <div className="flex flex-col justify-center items-center w-full border-l-2 border-black">
+                        <div className="flex flex-col justify-center items-center w-full border-l-2 border-black">
                             <img src={editionCover} alt="Litmag Cover" className="w-1/4"/>
-                        </div> */}
+                        </div>
                     </div>
                 </section>
             </main>
