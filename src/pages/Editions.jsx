@@ -6,10 +6,10 @@ const editions = [
     {
         year: "2024-2025",
         links: [
-            // { title: "Spring 2024", url: "https://drive.google.com/file/d/1Io_nddS3cICcOer4826kFiYp2jW95Jk6/view" },
+            // { title: "Spring 2025", url: "https://drive.google.com/file/d/1Io_nddS3cICcOer4826kFiYp2jW95Jk6/view" },
             // { title: "Winter 2025", url: "https://drive.google.com/file/d/1wGEUr_o_EA0T8JthFSp5uysnAcLVJiFQ/view" },
             { title: "Valentine's Day 2025", url: "https://drive.google.com/file/d/1F5YryuHXI8bM_rpWPZFEEC_j8AZWOPas/view" },
-            { title: "Fall 2024", url: "https://drive.google.com/file/d/1pgsEEOhif1iFNU1T_Lqr38jYeSqimhnn/view" }, //NEED TO UPDATE.
+            { title: "Fall 2024", url: "https://drive.google.com/file/d/1kszinANkNQPiY8bNME7JyET1eKdSEuyq/view" },
         ],
         colors: {
             background: "#DDD0E4 ",
