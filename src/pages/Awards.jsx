@@ -5,6 +5,8 @@ import "../css/Awards.css";
 const awardsByYear = {
     "2025": [
         { title: "1st Place Award Literary Magazine", organization: "American Scholastic Press Association" },
+        { title: "Award of Excellence | NCTE Realm", organization: "National Council of Teachers of English (NCTE)" },
+
     ],
     "2023": [
         { title: "Rank of Merit | NCTE Realm", organization: "National Council of Teachers of English (NCTE)" },
