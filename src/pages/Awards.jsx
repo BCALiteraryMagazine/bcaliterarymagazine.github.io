@@ -22,17 +22,20 @@ const awardsByYear = {
 };
 
 const Awards = () => {
+
+    const sortedYears = Object.keys(awardsByYear).sort((a, b) => b - a);
+
     return (
         <>
             <Header />
             <main className="awards-body">
                 <h1 className="awards-title">HONORS & AWARDS</h1>
                 <div className="awards-grid">
-                    {Object.entries(awardsByYear).map(([year, awards]) => (
+                    {sortedYears.map((year) => (
                         <div key={year} className="awards-section">
                             <h2 className="awards-year">{year}</h2>
                             <ul className="awards-list">
-                                {awards.map((award, index) => (
+                                {awardsByYear[year].map((award, index) => (
                                     <li key={index} className="awards-item">
                                         <h3 className="award-title">{award.title}</h3>
                                         <p className="award-organization">{award.organization}</p>

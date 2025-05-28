@@ -30,7 +30,7 @@ const Submit = () => {
                     </h2>
                     <br />
                     <p className="">
-                        Make sure to contribute to the upcoming Spring Edition!
+                        Make sure to contribute to the upcoming Fall 2025 Edition!
                     </p>                    
                 </div>
                 {/* <p className="text-center italic block my-3">
