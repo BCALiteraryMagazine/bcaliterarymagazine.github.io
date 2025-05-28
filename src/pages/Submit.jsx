@@ -26,7 +26,7 @@ const Submit = () => {
                     <h2
                         className="text-3xl"
                     >
-                        Submit to BCA LitMag
+                        Submit to BCA LitMag!
                     </h2>
                     <br />
                     <p className="">
