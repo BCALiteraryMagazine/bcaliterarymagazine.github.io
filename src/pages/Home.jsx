@@ -1,11 +1,11 @@
 import React from "react";
 import Header from "../components/Header";
 import "../css/Home.css";
-import editionCover from "../assets/winter2025_cover.png"
+import editionCover from "../assets/spring2025_cover.jpg"
 
 // Change to reflect newest edition name + URL
-const editionURL = "https://drive.google.com/file/d/1Rs95J8YZ3tq2qv1T48VJLkucaWXubTqj/view";
-const editionName = "Neptune";
+const editionURL = "https://drive.google.com/file/d/1VHhlAMlQxwxXABwAMAmW-B8uNpn9ao-t/view";
+const editionName = "Saturn";
 
 const Home = () => {
     return (
@@ -25,11 +25,11 @@ const Home = () => {
                     <div className="call-to-action py-8 mt-24 w-full bg-colorone flex flex-row items-center justify-between">
                         <div className="h-52 flex flex-col justify-between items-center w-full border-0 border-red-500">
                             <h3 className="text-4xl font-semibold font-agdasima">
-                                NEW! Winter Edition "{editionName}" Out Now!
+                                NEW! Spring Edition "{editionName}" Out Now!
                             </h3>
 
                             <p className="text-lg mt-4">
-                                Our Winter Edition, "{editionName}", is out now! CLick below to read it!
+                                Our Spring Edition, "{editionName}", is out now! Click below to read it!
                             </p>
 
                             <a
