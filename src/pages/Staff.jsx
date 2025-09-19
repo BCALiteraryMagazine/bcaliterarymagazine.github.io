@@ -3,26 +3,25 @@ import Header from "../components/Header";
 import "../css/Staff.css";
 
 // Importing staff photos
-import CelineP from "../assets/CelineP_LM.png";
-import ChloeS from "../assets/ChloeS_LM.png";
-import EuniceC from "../assets/EuniceC_LM.png";
-import EylulO from "../assets/EylulO_LM.png";
-import KirstenM from "../assets/KirstenM_LM.png";
-import MsVillanova from "../assets/MsVillanova_LM.png";
 import SafinahM from "../assets/SafinahM_LM.png";
-import ShreyaT from "../assets/ShreyaT_LM.png";
+import EmilyA from "../assets/EmilyA_LM.png";
+import EuniceC from "../assets/EuniceC_LM.png";
+import VarshaT from "../assets/VarshaT_LM.png";
+import CaraK from "../assets/CaraK_LM.png";
 import WillowY from "../assets/WillowY_LM.png";
+import ShreyaT from "../assets/ShreyaT_LM.png";
+import MsVillanova from "../assets/MsVillanova_LM.png";
+
 
 const Staff = () => {
     const members = [
-        { name: "Eylul Oktay", role: "Editor-In-Chief", photo: EylulO },
-        { name: "Safinah Munshi", role: "Editor-In-Chief", photo: SafinahM },
-        { name: "Kirsten Marcelin", role: "Head of Editorial", photo: KirstenM },
-        { name: "Chloe Song", role: "Head of Communications", photo: ChloeS },
-        { name: "Celine Park", role: "Head of Design", photo: CelineP },
+        { name: "Safinah Munshi", role: "Senior Editor-In-Chief", photo: SafinahM },
+        { name: "Emily Amoss", role: "Junior Co-Editor-In-Chief", photo: EmilyA },
+        { name: "Eunice Cho", role: "Junior Co-Editor-In-Chief", photo: EuniceC },
+        { name: "Varsha Tyagi", role: "Head of Editorial", photo: VarshaT },
+        { name: "Cara Ko", role: "Head of Design", photo: CaraK },
+        { name: "Willow Yoo", role: "Head of Communications and Social Media", photo: WillowY },
         { name: "Shreya Thirumala", role: "Head of Web Design", photo: ShreyaT },
-        { name: "Willow Yoo", role: "Social Media Manager", photo: WillowY },
-        { name: "Eunice Cho", role: "Social Media Manager", photo: EuniceC },
         { name: "Ms. Villanova", role: "Club Advisor", photo: MsVillanova },
         
     ];
